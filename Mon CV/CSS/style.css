@@ -1,0 +1,46 @@
+.entete{
+    background-color: #9a81a5;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+.entete img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+.entete img .profile{
+    display: flex;
+}
+.entete .user{
+    color: white;
+    
+}
+.entete ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+.contenue{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.contenue .propos{
+    background-color: darkgrey;
+    max-width: 45%;
+    padding: 15px;
+}
+.contenue .experience{
+    background-color: white;
+    max-width: 55%;
+    padding: 15px;
+}
+h3{
+    color: blue;
+}
+hr{
+}
